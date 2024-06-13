@@ -4,7 +4,6 @@ import reactImage from '../assets/react.svg'
 import jsImage from '../assets/js.png'
 import firebaseImg from '../assets/fire2.png'
 import { Link } from 'react-router-dom'
-import { useMediaQuery } from 'react-responsive'
 import { motion } from 'framer-motion'
 import Projects from './Projects'
 const About = ()=>{
