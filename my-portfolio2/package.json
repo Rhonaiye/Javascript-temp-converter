@@ -1,10 +1,13 @@
 {
+  "homepage": "http://Rhonaiye.github.io/portfolio2",
   "name": "my-portfolio2",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy0" : "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
